@@ -1,0 +1,25 @@
+{
+  "name": "supertest---mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-partner" : "mocha b2b/partners.js",
+    "test-grp" : "mocha b2b/entitlementGroups.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/register": "^7.24.6",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0",
+    "supertest": "^7.0.0"
+  }
+}
